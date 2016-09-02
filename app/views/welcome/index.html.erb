@@ -1,0 +1,210 @@
+<form novalidate="novalidate" class="edit_checkout animate-floating-labels" action="/welcome" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="zThACHUXe6kMli6IYHhCRDmBarpP1qm2pvsUi1QJZY8lxXAfqkqxxDvAwIBCHsfX+q9P6IZoqOz9cxjkT96k9Q==">
+<input type="hidden" name="previous_step" id="previous_step" value="contact_information">
+<input type="hidden" name="step" value="shipping_method">
+<div class="step__sections">
+  <div class="section section--contact-information">
+    <div class="section__header">
+      <h2 class="section__title">Customer information</h2>
+    </div>
+    <div class="section__content">
+      <div class="fieldset" data-email-check="[data-email-suggestions]">
+        <div class="field field--required">
+          <div class="field__input-wrapper"><label class="field__label" for="checkout_email">Email</label>
+          <input placeholder="Email" autocapitalize="off" spellcheck="false" autocomplete="shipping email" data-autofocus="true" data-backup="customer_email" class="field__input" size="30" type="email" value="" name="checkout[email]" id="checkout_email">
+        </div>
+        <p class="field__message--warning hidden" data-email-suggestions="">Did you mean <a href="#" data-email-suggestion=""></a>?</p>
+      </div>      </div>
+      <p class="section__content__text">
+        <span aria-hidden="true">Already have an account with us?</span>
+        <a href="https://www.kyliecosmetics.com/account/login?checkout_url=https%3A%2F%2Fwww.kyliecosmetics.com%2F11335964%2Fcheckouts%2F33287555fd2eea64b4591fc649921a77%3Fstep%3Dcontact_information">
+          <span class="visually-hidden">Already have an account with us?</span>
+          Log in
+        </a>        </p>
+      </div>
+    </div>
+    <div class="section section--shipping-address" data-shipping-address="" data-update-order-summary="">
+      <div class="section__header">
+        <h2 class="section__title">
+        Shipping address
+        </h2>
+      </div>
+      <div class="section__content">
+        <div class="fieldset" data-address-fields="">
+          <div class="field--half field field--required">
+            <div class="field__input-wrapper"><label class="field__label" for="checkout_shipping_address_first_name">First name</label>
+            <input placeholder="First name" autocomplete="shipping given-name" data-backup="first_name" class="field__input" size="30" type="text" name="checkout[shipping_address][first_name]" id="checkout_shipping_address_first_name">
+          </div>
+        </div>
+        <div class="field--half field field--required">
+          <div class="field__input-wrapper"><label class="field__label" for="checkout_shipping_address_last_name">Last name</label>
+          <input placeholder="Last name" autocomplete="shipping family-name" data-backup="last_name" class="field__input" size="30" type="text" name="checkout[shipping_address][last_name]" id="checkout_shipping_address_last_name">
+        </div>
+      </div>
+      <div class="field--two-thirds field field--required">
+        <div class="field__input-wrapper"><label class="field__label" for="checkout_shipping_address_address1">Address</label>
+        <input placeholder="Address" autocomplete="shipping address-line1" data-backup="address1" class="field__input" size="30" type="text" name="checkout[shipping_address][address1]" id="checkout_shipping_address_address1">
+      </div>
+    </div>
+    <div class="field--third field field--optional">
+      <div class="field__input-wrapper"><label class="field__label" for="checkout_shipping_address_address2">Apt, suite, etc. (optional)</label>
+      <input placeholder="Apt, suite, etc. (optional)" autocomplete="shipping address-line2" data-backup="address2" class="field__input" size="30" type="text" name="checkout[shipping_address][address2]" id="checkout_shipping_address_address2">
+    </div>
+  </div>
+  <div class="field field--required">
+    <div class="field__input-wrapper"><label class="field__label" for="checkout_shipping_address_city">City</label>
+    <input placeholder="City" autocomplete="shipping address-level2" data-backup="city" class="field__input" size="30" type="text" name="checkout[shipping_address][city]" id="checkout_shipping_address_city">
+  </div>
+</div>
+<div data-country-section="1" class="field field--required field--three-eights field--show-floating-label">
+  <div class="field__input-wrapper field__input-wrapper--select"><label class="field__label" for="checkout_shipping_address_country">Country</label>
+  <select size="1" autocomplete="shipping country" data-backup="country" class="field__input field__input--select" name="checkout[shipping_address][country]" id="checkout_shipping_address_country"><option data-code="US" value="United States">United States</option>
+  <option data-code="GB" value="United Kingdom">United Kingdom</option>
+  <option data-code="AU" value="Australia">Australia</option>
+  <option data-code="CA" selected="selected" value="Canada">Canada</option>
+  <option disabled="disabled" value="---">---</option>
+  <option data-code="AI" value="Anguilla">Anguilla</option>
+  <option data-code="AG" value="Antigua And Barbuda">Antigua &amp; Barbuda</option>
+  <option data-code="AR" value="Argentina">Argentina</option>
+  <option data-code="AM" value="Armenia">Armenia</option>
+  <option data-code="AU" value="Australia">Australia</option>
+  <option data-code="AT" value="Austria">Austria</option>
+  <option data-code="BS" value="Bahamas">Bahamas</option>
+  <option data-code="BH" value="Bahrain">Bahrain</option>
+  <option data-code="BB" value="Barbados">Barbados</option>
+  <option data-code="BE" value="Belgium">Belgium</option>
+  <option data-code="BM" value="Bermuda">Bermuda</option>
+  <option data-code="BT" value="Bhutan">Bhutan</option>
+  <option data-code="BA" value="Bosnia And Herzegovina">Bosnia &amp; Herzegovina</option>
+  <option data-code="BR" value="Brazil">Brazil</option>
+  <option data-code="VG" value="Virgin Islands, British">British Virgin Islands</option>
+  <option data-code="BN" value="Brunei">Brunei</option>
+  <option data-code="BG" value="Bulgaria">Bulgaria</option>
+  <option data-code="CA" value="Canada">Canada</option>
+  <option data-code="KY" value="Cayman Islands">Cayman Islands</option>
+  <option data-code="CL" value="Chile">Chile</option>
+  <option data-code="CN" value="China">China</option>
+  <option data-code="CO" value="Colombia">Colombia</option>
+  <option data-code="CR" value="Costa Rica">Costa Rica</option>
+  <option data-code="HR" value="Croatia">Croatia</option>
+  <option data-code="CU" value="Cuba">Cuba</option>
+  <option data-code="CZ" value="Czech Republic">Czech Republic</option>
+  <option data-code="DK" value="Denmark">Denmark</option>
+  <option data-code="DO" value="Dominican Republic">Dominican Republic</option>
+  <option data-code="EG" value="Egypt">Egypt</option>
+  <option data-code="EE" value="Estonia">Estonia</option>
+  <option data-code="ET" value="Ethiopia">Ethiopia</option>
+  <option data-code="FI" value="Finland">Finland</option>
+  <option data-code="FR" value="France">France</option>
+  <option data-code="GF" value="French Guiana">French Guiana</option>
+  <option data-code="PF" value="French Polynesia">French Polynesia</option>
+  <option data-code="GR" value="Greece">Greece</option>
+  <option data-code="GL" value="Greenland">Greenland</option>
+  <option data-code="GD" value="Grenada">Grenada</option>
+  <option data-code="GT" value="Guatemala">Guatemala</option>
+  <option data-code="HK" value="Hong Kong">Hong Kong SAR China</option>
+  <option data-code="HU" value="Hungary">Hungary</option>
+  <option data-code="IS" value="Iceland">Iceland</option>
+  <option data-code="IN" value="India">India</option>
+  <option data-code="IR" value="Iran, Islamic Republic Of">Iran</option>
+  <option data-code="IQ" value="Iraq">Iraq</option>
+  <option data-code="IE" value="Ireland">Ireland</option>
+  <option data-code="IM" value="Isle Of Man">Isle of Man</option>
+  <option data-code="IL" value="Israel">Israel</option>
+  <option data-code="IT" value="Italy">Italy</option>
+  <option data-code="JM" value="Jamaica">Jamaica</option>
+  <option data-code="JP" value="Japan">Japan</option>
+  <option data-code="JO" value="Jordan">Jordan</option>
+  <option data-code="KW" value="Kuwait">Kuwait</option>
+  <option data-code="LB" value="Lebanon">Lebanon</option>
+  <option data-code="LY" value="Libyan Arab Jamahiriya">Libya</option>
+  <option data-code="LI" value="Liechtenstein">Liechtenstein</option>
+  <option data-code="LT" value="Lithuania">Lithuania</option>
+  <option data-code="LU" value="Luxembourg">Luxembourg</option>
+  <option data-code="MO" value="Macao">Macau SAR China</option>
+  <option data-code="MT" value="Malta">Malta</option>
+  <option data-code="MQ" value="Martinique">Martinique</option>
+  <option data-code="MX" value="Mexico">Mexico</option>
+  <option data-code="MD" value="Moldova, Republic of">Moldova</option>
+  <option data-code="MC" value="Monaco">Monaco</option>
+  <option data-code="NL" value="Netherlands">Netherlands</option>
+  <option data-code="AN" value="Netherlands Antilles">Netherlands Antilles</option>
+  <option data-code="NZ" value="New Zealand">New Zealand</option>
+  <option data-code="NO" value="Norway">Norway</option>
+  <option data-code="PA" value="Panama">Panama</option>
+  <option data-code="PY" value="Paraguay">Paraguay</option>
+  <option data-code="PE" value="Peru">Peru</option>
+  <option data-code="PL" value="Poland">Poland</option>
+  <option data-code="PT" value="Portugal">Portugal</option>
+  <option data-code="QA" value="Qatar">Qatar</option>
+  <option data-code="RO" value="Romania">Romania</option>
+  <option data-code="RU" value="Russia">Russia</option>
+  <option data-code="SA" value="Saudi Arabia">Saudi Arabia</option>
+  <option data-code="SG" value="Singapore">Singapore</option>
+  <option data-code="SI" value="Slovenia">Slovenia</option>
+  <option data-code="ES" value="Spain">Spain</option>
+  <option data-code="BL" value="Saint Barthélemy">St. Barthélemy</option>
+  <option data-code="KN" value="Saint Kitts And Nevis">St. Kitts &amp; Nevis</option>
+  <option data-code="LC" value="Saint Lucia">St. Lucia</option>
+  <option data-code="MF" value="Saint Martin">St. Martin</option>
+  <option data-code="VC" value="St. Vincent">St. Vincent &amp; Grenadines</option>
+  <option data-code="SD" value="Sudan">Sudan</option>
+  <option data-code="SE" value="Sweden">Sweden</option>
+  <option data-code="CH" value="Switzerland">Switzerland</option>
+  <option data-code="SY" value="Syria">Syria</option>
+  <option data-code="TT" value="Trinidad and Tobago">Trinidad &amp; Tobago</option>
+  <option data-code="TC" value="Turks and Caicos Islands">Turks &amp; Caicos Islands</option>
+  <option data-code="UM" value="United States Minor Outlying Islands">U.S. Outlying Islands</option>
+  <option data-code="UA" value="Ukraine">Ukraine</option>
+  <option data-code="AE" value="United Arab Emirates">United Arab Emirates</option>
+  <option data-code="GB" value="United Kingdom">United Kingdom</option>
+  <option data-code="US" value="United States">United States</option>
+  <option data-code="UY" value="Uruguay">Uruguay</option>
+  <option data-code="VE" value="Venezuela">Venezuela</option></select>
+</div>
+</div>
+<input class="visually-hidden" autocomplete="shipping address-level1" tabindex="-1" data-autocomplete-field="province" size="30" type="text" name="checkout[shipping_address][province]">
+<div data-province-section="1" class="field field--required field--three-eights field--show-floating-label">
+<div class="field__input-wrapper field__input-wrapper--select"><label class="field__label" for="checkout_shipping_address_province">Province</label>
+<input type="hidden" name="checkout[shipping_address][province]"><select placeholder="Quebec" data-backup="province" class="field__input field__input--select" name="checkout[shipping_address][province]" id="checkout_shipping_address_province"><option value="" disabled="">Province</option><option data-code="AB" value="Alberta">Alberta</option><option data-code="BC" value="British Columbia">British Columbia</option><option data-code="MB" value="Manitoba">Manitoba</option><option data-code="NB" value="New Brunswick">New Brunswick</option><option data-code="NL" value="Newfoundland">Newfoundland</option><option data-code="NT" value="Northwest Territories">Northwest Territories</option><option data-code="NS" value="Nova Scotia">Nova Scotia</option><option data-code="NU" value="Nunavut">Nunavut</option><option data-code="ON" value="Ontario">Ontario</option><option data-code="PE" value="Prince Edward Island">Prince Edward Island</option><option data-code="QC" value="Quebec">Quebec</option><option data-code="SK" value="Saskatchewan">Saskatchewan</option><option data-code="YT" value="Yukon">Yukon</option></select>
+</div>
+</div>
+<div data-zip-section="1" class="field field--required field--quarter">
+<div class="field__input-wrapper"><label class="field__label" for="checkout_shipping_address_zip">Postal code</label>
+<input placeholder="Postal code" autocomplete="shipping postal-code" data-backup="zip" class="field__input field__input--zip" size="30" type="text" name="checkout[shipping_address][zip]" id="checkout_shipping_address_zip">
+</div>
+</div>
+<div class="field field--required">
+<div class="field__input-wrapper"><label class="field__label" for="checkout_shipping_address_phone">Phone</label>
+<input placeholder="Phone" autocomplete="shipping tel" data-backup="phone" class="field__input" size="30" type="tel" name="checkout[shipping_address][phone]" id="checkout_shipping_address_phone">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section section--half-spacing-top section--optional">
+<div class="section__content">
+<div class="checkbox-wrapper">
+<div class="checkbox__input">
+<input size="30" type="hidden" name="checkout[remember_me]">
+<input name="checkout[remember_me]" type="hidden" value="0"><input class="input-checkbox" data-backup="remember_me" type="checkbox" value="1" name="checkout[remember_me]" id="checkout_remember_me">
+</div>
+<label class="checkbox__label" for="checkout_remember_me">
+Save this information for next time
+</label>          </div>
+</div>
+</div>
+</div>
+<div class="step__footer">
+<button name="button" type="submit" class="step__footer__continue-btn btn ">
+<span class="btn__content">Continue to shipping method</span>
+<i class="btn__spinner icon icon--button-spinner"></i>
+</button>
+<a class="step__footer__previous-link" href="https://www.kyliecosmetics.com/cart">
+<svg class="previous-link__icon icon--chevron icon" xmlns="http://www.w3.org/2000/svg" width="6.7" height="11.3" viewBox="0 0 6.7 11.3">
+<path d="M6.7 1.1l-1-1.1-4.6 4.6-1.1 1.1 1.1 1 4.6 4.6 1-1-4.6-4.6z"></path>
+</svg>
+Return to cart</a>
+</div>
+<input type="hidden" name="checkout[client_details][browser_width]" value="1436"><input type="hidden" name="checkout[client_details][browser_height]" value="803">
+<input type="hidden" name="checkout[client_details][javascript_enabled]" value="1">
+</form>
